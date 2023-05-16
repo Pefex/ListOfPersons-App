@@ -22,7 +22,7 @@ public class Activity_Personenliste extends AppCompatActivity {
         super.onResume();
         EditText tbNameList= ((EditText)findViewById(R.id.tbNameList));
 
-        String names = "";
+        String names = "abc";
 
         for(Person person: PERSON_LIST){
            names = names + person.getVorname() +" "+person.getNachname()+"\n";
